@@ -1,5 +1,3 @@
-import get from "./get";
+const { get } = require("./get");
 
-export { get };
-
-
+module.exports = { get };

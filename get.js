@@ -18,4 +18,4 @@ const get = (item, keyArrayAsString) => {
   return get(item[key], keys.join("."));
 };
 
-export default get;
+module.exports = {get}
